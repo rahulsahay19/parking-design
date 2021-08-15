@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82E1F86A-E9EA-4794-8DAE-81504EA484D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{4B5DDACE-31F3-4297-B51B-85017D1DA28B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{51D780E5-F6AE-4508-932E-0C9A8ADC3192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6AB5DD0F-BDAA-4A51-9E00-A76A4D960919}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingService.Bootstrapper", "..\src\Bootstrapper\ParkingService.Bootstrapper\ParkingService.Bootstrapper\ParkingService.Bootstrapper.csproj", "{2B848A17-D546-44ED-A491-DB4650D01F32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parking", "Parking", "{433FC221-8CDA-4FBA-A201-1EE0CC0561D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingService.Shared.Abstractions", "..\src\Shared\ParkingService.Shared.Abstractions\ParkingService.Shared.Abstractions\ParkingService.Shared.Abstractions.csproj", "{55DB4F34-E4C6-4DF4-B86B-D3B72AE5BF5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingService.Shared.Infrastructure", "..\src\Shared\ParkingService.Shared.Infrastructure\ParkingService.Shared.Infrastructure\ParkingService.Shared.Infrastructure.csproj", "{029EB26B-0880-485B-B776-DDA2878C2AFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{DA684CED-1695-4F72-ADDC-30970D112D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingService.Modules.Parking.Api", "ParkingService.Modules.Parking.Api\ParkingService.Modules.Parking.Api.csproj", "{6BBC8BCE-FB0B-4955-A278-8F6D2102170D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingService.Module.Parking.Core", "ParkingService.Module.Parking.Core\ParkingService.Module.Parking.Core.csproj", "{20AAE9E2-1D63-4CA7-8EDB-D2E86DCD533D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B848A17-D546-44ED-A491-DB4650D01F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B848A17-D546-44ED-A491-DB4650D01F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B848A17-D546-44ED-A491-DB4650D01F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B848A17-D546-44ED-A491-DB4650D01F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DB4F34-E4C6-4DF4-B86B-D3B72AE5BF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DB4F34-E4C6-4DF4-B86B-D3B72AE5BF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DB4F34-E4C6-4DF4-B86B-D3B72AE5BF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DB4F34-E4C6-4DF4-B86B-D3B72AE5BF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029EB26B-0880-485B-B776-DDA2878C2AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029EB26B-0880-485B-B776-DDA2878C2AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029EB26B-0880-485B-B776-DDA2878C2AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029EB26B-0880-485B-B776-DDA2878C2AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBC8BCE-FB0B-4955-A278-8F6D2102170D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBC8BCE-FB0B-4955-A278-8F6D2102170D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBC8BCE-FB0B-4955-A278-8F6D2102170D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBC8BCE-FB0B-4955-A278-8F6D2102170D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AAE9E2-1D63-4CA7-8EDB-D2E86DCD533D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AAE9E2-1D63-4CA7-8EDB-D2E86DCD533D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AAE9E2-1D63-4CA7-8EDB-D2E86DCD533D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AAE9E2-1D63-4CA7-8EDB-D2E86DCD533D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B5DDACE-31F3-4297-B51B-85017D1DA28B} = {82E1F86A-E9EA-4794-8DAE-81504EA484D6}
+		{51D780E5-F6AE-4508-932E-0C9A8ADC3192} = {82E1F86A-E9EA-4794-8DAE-81504EA484D6}
+		{6AB5DD0F-BDAA-4A51-9E00-A76A4D960919} = {82E1F86A-E9EA-4794-8DAE-81504EA484D6}
+		{2B848A17-D546-44ED-A491-DB4650D01F32} = {4B5DDACE-31F3-4297-B51B-85017D1DA28B}
+		{433FC221-8CDA-4FBA-A201-1EE0CC0561D7} = {51D780E5-F6AE-4508-932E-0C9A8ADC3192}
+		{55DB4F34-E4C6-4DF4-B86B-D3B72AE5BF5F} = {6AB5DD0F-BDAA-4A51-9E00-A76A4D960919}
+		{029EB26B-0880-485B-B776-DDA2878C2AFB} = {6AB5DD0F-BDAA-4A51-9E00-A76A4D960919}
+		{DA684CED-1695-4F72-ADDC-30970D112D3E} = {51D780E5-F6AE-4508-932E-0C9A8ADC3192}
+		{6BBC8BCE-FB0B-4955-A278-8F6D2102170D} = {433FC221-8CDA-4FBA-A201-1EE0CC0561D7}
+		{20AAE9E2-1D63-4CA7-8EDB-D2E86DCD533D} = {433FC221-8CDA-4FBA-A201-1EE0CC0561D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A0B1152-50E8-4E58-BBB3-191F0270CA46}
+	EndGlobalSection
+EndGlobal
